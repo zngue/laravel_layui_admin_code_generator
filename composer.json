@@ -1,0 +1,27 @@
+{
+    "name": "zngue/laravel_layui_admin_code_generator",
+    "description": "zngue 在线生成代码",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zngue",
+            "email": "875407262@qq.com"
+        }
+    ],
+    "require": {
+        "zngue/laravel_layui_admin_user": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zngue\\Module\\": "src"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Zngue\\Module\\Provider\\ModuleServiceProvider"
+            ]
+        }
+    }
+}
