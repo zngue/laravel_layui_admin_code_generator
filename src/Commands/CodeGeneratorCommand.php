@@ -24,6 +24,7 @@ class CodeGeneratorCommand extends Command
 //        $this->call("vendor:publish",['--provider'=>'Zngue\User\UserService']);
 //        $this->call("vendor:publish",['--provider'=>'Zngue\Module\Provider\ModuleServiceProvider']);
         $this->call('zng:module');
+		$this->call('vendor:publish',['--provider'=>'Zngue\CodeGenerator\Provider\CodeGeneratorServiceProvider']);
         $data=array(
             'dbhost'=>config('database.connections.mysql.host'),
             'dbuser'=> config('database.connections.mysql.username'),
