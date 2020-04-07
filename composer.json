@@ -20,7 +20,6 @@
     "extra": {
         "laravel":{
             "providers": [
-			
                 "Zngue\\CodeGenerator\\Provider\\CodeGeneratorServiceProvider"
             ]
         }
