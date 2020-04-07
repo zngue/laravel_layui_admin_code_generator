@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "zngue/laravel_layui_admin_user": "*"
+        "zngue/zngue/laravel_layui_admin_mudule": "*"
     },
     "autoload": {
         "psr-4": {
@@ -20,7 +20,7 @@
     "extra": {
         "laravel":{
             "providers": [
-                "Zngue\\Module\\Provider\\ModuleServiceProvider"
+                "Zngue\\Module\\Provider\\CodeGeneratorServiceProvider"
             ]
         }
     }
