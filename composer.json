@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zngue\\Module\\": "src"
+            "Zngue\\CodeGenerator\\": "src"
         }
     },
     "extra": {
